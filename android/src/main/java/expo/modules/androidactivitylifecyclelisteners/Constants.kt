@@ -1,0 +1,7 @@
+package expo.modules.androidactivitylifecyclelisteners
+
+const val ACTIVITY_LIFECYCLE_LISTENERS_MODULE_SHARED_PREF = "ACTIVITY_LIFECYCLE_LISTENERS_MODULE_SHARED_PREF"
+
+const val ACCEPT_CALL_INVITE = "ACCEPT_CALL_INVITE"
+
+const val ACCEPT_INCOMING_CALL_INVITE_KEY = "acceptIncomingCall"

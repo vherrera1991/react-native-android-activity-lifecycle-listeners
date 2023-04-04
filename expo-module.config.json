@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["AndroidActivityLifecycleListenersModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.androidactivitylifecyclelisteners.AndroidActivityLifecycleListenersModule"]
+  }
+}

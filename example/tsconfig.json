@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@islacel/react-native-android-activity-lifecycle-listeners": ["../src/index"],
+      "@islacel/react-native-android-activity-lifecycle-listeners/*": ["../src/*"]
+    }
+  }
+}

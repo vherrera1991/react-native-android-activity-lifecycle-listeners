@@ -1,0 +1,43 @@
+{
+  "name": "@islacel/react-native-android-activity-lifecycle-listeners",
+  "version": "0.1.1",
+  "description": "Retrieves information from Android's React Native main activity",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "@islacel/react-native-android-activity-lifecycle-listeners",
+    "AndroidActivityLifecycleListenersModule"
+  ],
+  "repository": "https://github.com/vherrera1991/react-native-android-activity-lifecycle-listeners",
+  "bugs": {
+    "url": "https://github.com/vherrera1991/react-native-android-activity-lifecycle-listeners/issues"
+  },
+  "author": "Victor Herrera <vmherrera1991@gmail.com> (https://github.com/vherrera1991)",
+  "license": "MIT",
+  "homepage": "https://github.com/vherrera1991/react-native-android-activity-lifecycle-listeners#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "expo-module-scripts": "^3.0.4",
+    "expo-modules-core": "^1.1.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
